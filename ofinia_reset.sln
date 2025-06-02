@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ofinia_reset", "ofinia_reset.csproj", "{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74950A35-C045-449A-922C-BA5424523124}
+	EndGlobalSection
+EndGlobal

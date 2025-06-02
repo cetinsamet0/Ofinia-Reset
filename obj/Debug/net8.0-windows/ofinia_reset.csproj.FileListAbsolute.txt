@@ -1,0 +1,16 @@
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.main_menu.resources
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.csproj.GenerateResource.cache
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.GeneratedMSBuildEditorConfig.editorconfig
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.AssemblyInfoInputs.cache
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.AssemblyInfo.cs
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.csproj.CoreCompileInputs.cache
+D:\cetinsamet0_Projects\ofinia_reset\bin\Debug\net8.0-windows\ofinia_reset.exe
+D:\cetinsamet0_Projects\ofinia_reset\bin\Debug\net8.0-windows\ofinia_reset.deps.json
+D:\cetinsamet0_Projects\ofinia_reset\bin\Debug\net8.0-windows\ofinia_reset.runtimeconfig.json
+D:\cetinsamet0_Projects\ofinia_reset\bin\Debug\net8.0-windows\ofinia_reset.dll
+D:\cetinsamet0_Projects\ofinia_reset\bin\Debug\net8.0-windows\ofinia_reset.pdb
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.dll
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\refint\ofinia_reset.dll
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.pdb
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.genruntimeconfig.cache
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ref\ofinia_reset.dll
