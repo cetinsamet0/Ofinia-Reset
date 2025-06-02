@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ofinia_reset")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f36043cf6b5b186205f4a387952ca2532fc612")]
 [assembly: System.Reflection.AssemblyProductAttribute("ofinia_reset")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ofinia_reset")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

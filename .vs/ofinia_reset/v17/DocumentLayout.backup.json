@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}|ofinia_reset.csproj|solutionrelative:forms\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}|ofinia_reset.csproj|d:\\cetinsamet0_projects\\ofinia_reset\\forms\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}|ofinia_reset.csproj|D:\\cetinsamet0_Projects\\ofinia_reset\\forms\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}|ofinia_reset.csproj|solutionrelative:forms\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}|ofinia_reset.csproj|d:\\cetinsamet0_projects\\ofinia_reset\\forms\\main_menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6E19D3D-BD8D-4F84-A4AC-5E83A3B4930A}|ofinia_reset.csproj|solutionrelative:forms\\main_menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +26,11 @@
               "Title": "main_menu.cs",
               "DocumentMoniker": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.cs",
               "RelativeDocumentMoniker": "Forms\\main_menu.cs",
-              "ToolTip": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.cs*",
-              "RelativeToolTip": "Forms\\main_menu.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.cs",
+              "RelativeToolTip": "Forms\\main_menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T11:31:15.017Z",
+              "WhenOpened": "2025-06-02T12:43:25.894Z",
               "EditorCaption": ""
             },
             {
@@ -43,24 +39,10 @@
               "Title": "main_menu.cs [Tasar\u0131m]",
               "DocumentMoniker": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.cs",
               "RelativeDocumentMoniker": "Forms\\main_menu.cs",
-              "ToolTip": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "Forms\\main_menu.cs [Tasar\u0131m]*",
+              "ToolTip": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Forms\\main_menu.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T11:31:13.747Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main_menu.Designer.cs",
-              "DocumentMoniker": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\main_menu.Designer.cs",
-              "ToolTip": "D:\\cetinsamet0_Projects\\ofinia_reset\\Forms\\main_menu.Designer.cs*",
-              "RelativeToolTip": "Forms\\main_menu.Designer.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwCkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T11:31:00.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T11:31:13.747Z"
             }
           ]
         }
