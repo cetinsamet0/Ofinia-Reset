@@ -37,7 +37,7 @@
             pictureBox7 = new PictureBox();
             pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
-            label1 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -51,6 +51,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = Properties.Resources.close_btn;
             pictureBox1.Location = new Point(353, 12);
             pictureBox1.Name = "pictureBox1";
@@ -62,7 +63,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.Ofinia_Reseter_Only_Symbol_Logo_No_Background;
+            pictureBox2.Image = Properties.Resources.Ofinia_Reseter_With_Text_Logo_No_Background;
             pictureBox2.Location = new Point(91, -8);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(256, 246);
@@ -89,6 +90,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
@@ -99,6 +101,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 4;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
@@ -109,6 +112,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 5;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // pictureBox7
             // 
@@ -119,6 +123,7 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 6;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // pictureBox8
             // 
@@ -140,21 +145,21 @@
             pictureBox9.TabIndex = 8;
             pictureBox9.TabStop = false;
             // 
-            // label1
+            // button1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 535);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 9;
-            label1.Text = "label1";
+            button1.Location = new Point(17, 496);
+            button1.Name = "button1";
+            button1.Size = new Size(399, 51);
+            button1.TabIndex = 9;
+            button1.Text = "Hepsini Sıfırla";
+            button1.UseVisualStyleBackColor = true;
             // 
             // main_menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(435, 559);
-            Controls.Add(label1);
+            Controls.Add(button1);
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
@@ -167,6 +172,7 @@
             FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             Name = "main_menu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Ofinia Reset";
             Load += main_menu_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -179,7 +185,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -193,6 +198,6 @@
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
-        private Label label1;
+        private Button button1;
     }
 }

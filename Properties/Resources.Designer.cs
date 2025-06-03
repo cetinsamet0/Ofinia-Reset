@@ -93,9 +93,29 @@ namespace ofinia_reset.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_admin {
+            get {
+                object obj = ResourceManager.GetObject("icon-admin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Ofinia_Reseter_Only_Symbol_Logo_No_Background {
             get {
                 object obj = ResourceManager.GetObject("Ofinia Reseter Only Symbol Logo No Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ofinia_Reseter_With_Text_Logo_No_Background {
+            get {
+                object obj = ResourceManager.GetObject("Ofinia Reseter With Text Logo No Background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
