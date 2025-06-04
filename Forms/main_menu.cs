@@ -1,3 +1,4 @@
+using ofinia_reset.Forms;
 using ofinia_reset.Stylers;
 using System;
 using System.Diagnostics;
@@ -30,16 +31,26 @@ namespace ofinia_reset
             this.MouseDown += Form_MouseDown;
 
         }
+        //Siyah kenarlýklar için main menüde hoþuma gitmedi.
+        //protected override void OnPaint(PaintEventArgs e)
+        //{
+        //    base.OnPaint(e);
+
+        //    using (Pen borderPen = new Pen(Color.Black, 3))
+        //    {
+        //        e.Graphics.DrawRectangle(borderPen, 0, 0, this.Width - 1, this.Height - 1);
+        //    }
+        //}
 
         private void main_menu_Load(object sender, EventArgs e)
         {
 
             pictureBox2.Tag = "no-style";
-            if (!IsRunningAsAdministrator())
-            {
-                MessageBox.Show("Lütfen programý yönetici olarak çalýþtýrýnýz!!!", "Yetki Sorunu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                Application.Exit();
-            }
+            //if (!IsRunningAsAdministrator())
+            //{
+            //    MessageBox.Show("Lütfen programý yönetici olarak çalýþtýrýnýz!!!", "Yetki Sorunu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    Application.Exit();
+            //}
 
             PictureStyler.ApplyAllPictureBoxes(this);
         }
@@ -381,6 +392,13 @@ namespace ofinia_reset
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Yakýnda gelicek!", "Çok Yakýnda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public Point location;
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            location = this.Location;
+            Info newprinterform = new Info(this);
+            newprinterform.Show();
         }
     }
 }

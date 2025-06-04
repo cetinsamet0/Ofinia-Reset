@@ -16,3 +16,4 @@ D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\refint\ofinia_rese
 D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.pdb
 D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.genruntimeconfig.cache
 D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ref\ofinia_reset.dll
+D:\cetinsamet0_Projects\ofinia_reset\obj\Debug\net8.0-windows\ofinia_reset.Forms.Info.resources

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main_menu));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -64,9 +65,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.Ofinia_Reseter_With_Text_Logo_No_Background;
-            pictureBox2.Location = new Point(91, -16);
+            pictureBox2.Location = new Point(124, 26);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(240, 240);
+            pictureBox2.Size = new Size(180, 180);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -80,6 +81,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
@@ -149,6 +151,8 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            button1.ForeColor = Color.Crimson;
             button1.Location = new Point(17, 496);
             button1.Name = "button1";
             button1.Size = new Size(399, 51);
@@ -173,6 +177,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "main_menu";
             StartPosition = FormStartPosition.CenterScreen;

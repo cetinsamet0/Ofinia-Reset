@@ -118,31 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="word-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Buttons\word-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="help-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Buttons\help-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="excel-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Buttons\excel-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="powerpoint-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Buttons\powerpoint-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\icon-admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ofinia Reseter Only Symbol Logo No Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\Ofinia Reseter Only Symbol Logo No Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sabun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\sabun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outlook-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Buttons\outlook-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Buttons\close-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="word-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Buttons\word-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\rocket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ofinia Reseter With Text Logo No Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\Ofinia Reseter With Text Logo No Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\icon-admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Buttons\excel-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Buttons\close-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ofinia Reseter Only Symbol Logo No Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\Ofinia Reseter Only Symbol Logo No Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Buttons\help-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerpoint-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Buttons\powerpoint-btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ofinia Reseter Only Symbol Logo No Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\Ofinia Reseter Only Symbol Logo No Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
