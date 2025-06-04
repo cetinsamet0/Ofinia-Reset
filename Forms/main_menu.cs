@@ -76,7 +76,7 @@ namespace ofinia_reset
         }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            excelreset();
+            excelReset();
         }
         private void pictureBox6_Click(object sender, EventArgs e)
         {
@@ -223,10 +223,72 @@ namespace ofinia_reset
             }
         }
 
-        public static void excelreset()
+        public static void excelReset()
         {
-            
+            string excelScript = @"
+        foreach ($v in '16.0','15.0','14.0','12.0') {
+            $key = 'HKCU:\Software\Microsoft\Office\' + $v + '\Excel'
+            if (Test-Path $key) {
+                Remove-Item $key -Recurse -Force
+            }
         }
+
+        $excelStartupPath = $env:APPDATA + '\Microsoft\Excel\XLSTART'
+        if (Test-Path $excelStartupPath) {
+            Remove-Item $excelStartupPath\* -Recurse -Force
+        }
+
+        $recoveryPath = $env:APPDATA + '\Microsoft\Excel'
+        if (Test-Path $recoveryPath) {
+            Remove-Item $recoveryPath\* -Recurse -Force
+        }
+    ";
+
+            DialogResult answer = MessageBox.Show("Microsoft Excel uygulamasýnýn tüm ayarlarýný sýfýrlamak istediðinizden emin misiniz?", "Uyarý", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (answer == DialogResult.Yes)
+            {
+                try
+                {
+                    ProcessStartInfo psi = new ProcessStartInfo
+                    {
+                        FileName = "powershell.exe",
+                        Arguments = $"-NoProfile -ExecutionPolicy Bypass -Command \"{excelScript}\"",
+                        Verb = "runas", // Yönetici olarak çalýþtýr
+                        RedirectStandardOutput = true,
+                        RedirectStandardError = true,
+                        UseShellExecute = false,
+                        CreateNoWindow = true,
+                        StandardOutputEncoding = Encoding.UTF8
+                    };
+                    using (Process process = new Process())
+                    {
+                        process.StartInfo = psi;
+                        process.Start();
+                        process.WaitForExit();
+
+                        if (process.ExitCode == 0)
+                        {
+                            MessageBox.Show("Excel ayarlarý baþarýyla sýfýrlandý!", "Tamamlandý", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            string error = process.StandardError.ReadToEnd();
+                            MessageBox.Show("Hata oluþtu:\n" + error, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Komut çalýþtýrýlýrken hata oluþtu:\n" + ex.Message);
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Sýfýrlama iþleminden vazgeçildi!", "Ýptal Edildi");
+            }
+        }
+
 
         public static void outlookreset()
         {
@@ -303,6 +365,22 @@ namespace ofinia_reset
             }
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            wordreset();
+            excelReset();
+            powerpointreset();
+            outlookreset();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Yakýnda gelicek!", "Çok Yakýnda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Yakýnda gelicek!", "Çok Yakýnda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

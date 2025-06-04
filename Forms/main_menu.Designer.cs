@@ -64,9 +64,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.Ofinia_Reseter_With_Text_Logo_No_Background;
-            pictureBox2.Location = new Point(91, -8);
+            pictureBox2.Location = new Point(91, -16);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(256, 246);
+            pictureBox2.Size = new Size(240, 240);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -134,6 +134,7 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 7;
             pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
             // 
             // pictureBox9
             // 
@@ -144,6 +145,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 8;
             pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
             // 
             // button1
             // 
@@ -153,6 +155,7 @@
             button1.TabIndex = 9;
             button1.Text = "Hepsini Sıfırla";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // main_menu
             // 
