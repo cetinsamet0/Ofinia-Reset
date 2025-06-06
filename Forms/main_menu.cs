@@ -6,6 +6,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Security.Principal;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
@@ -375,6 +376,9 @@ namespace ofinia_reset
                 MessageBox.Show("Sýfýrlama iþleminden vazgeçildi!", "Ýptal Edildi");
             }
         }
+
+   
+
 
         private void button1_Click(object sender, EventArgs e)
         {
