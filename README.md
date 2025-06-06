@@ -21,7 +21,10 @@ Ofinia Reseter, Microsoft Office uygulamalarını (Word, Excel, PowerPoint, Outl
 
 <!-- Görselleri buraya ekleyebilirsiniz -->
 <p align="center">
-  <img src="screenshots/main_ui.png" width="600" alt="Ofinia Reseter ana ekran" />
+  <img src="screenshots/main.jpg" width="600" alt="Ofinia Reseter ana ekran" />
+</p>
+<p align="center">
+  <img src="screenshots/info.png" width="600" alt="Ofinia Reseter ana ekran" />
 </p>
 
 ---
