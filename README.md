@@ -38,5 +38,5 @@ Ofinia Reseter, Microsoft Office uygulamalarını (Word, Excel, PowerPoint, Outl
 
 ## 🖥️ Kurulum
 
-En son sürümü [Releases](https://github.com/kullaniciadiniz/ofinia-reseter/releases) bölümünden indirebilirsiniz.
+En son sürümü [Releases]([https://github.com/kullaniciadiniz/ofinia-reseter/releases](https://github.com/cetinsamet0/Ofinia-Reset/releases/tag/v1.0.0)) bölümünden indirebilirsiniz.
 
