@@ -47,11 +47,11 @@ namespace ofinia_reset
         {
 
             pictureBox2.Tag = "no-style";
-            //if (!IsRunningAsAdministrator())
-            //{
-            //    MessageBox.Show("Lütfen programý yönetici olarak çalýþtýrýnýz!!!", "Yetki Sorunu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //    Application.Exit();
-            //}
+            if (!IsRunningAsAdministrator())
+            {
+                MessageBox.Show("Lütfen programý yönetici olarak çalýþtýrýnýz!!!", "Yetki Sorunu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Application.Exit();
+            }
 
             PictureStyler.ApplyAllPictureBoxes(this);
         }
